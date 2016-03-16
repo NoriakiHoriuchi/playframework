@@ -7,12 +7,12 @@ Writing tests for your application can be an involved process.  Play provides a 
 
 The location for tests is in the "test" folder.  There are two sample test files created in the test folder which can be used as templates.
 
-You can run tests from the Play console.
+You can run tests from the Activator console.
 
 * To run all tests, run `test`.
-* To run only one test class, run `test-only` followed by the name of the class i.e. `test-only my.namespace.MySpec`.
-* To run only the tests that have failed, run `test-quick`.
-* To run tests continually, run a command with a tilde in front, i.e. `~test-quick`.
+* To run only one test class, run `testOnly` followed by the name of the class i.e. `testQnly my.namespace.MySpec`.
+* To run only the tests that have failed, run `testQuick`.
+* To run tests continually, run a command with a tilde in front, i.e. `~testQuick`.
 * To access test helpers such as `FakeRequest` in console, run `test:console`.
 
 Testing in Play is based on SBT, and a full description is available in the [testing SBT](http://www.scala-sbt.org/0.13/docs/Testing.html) chapter.
